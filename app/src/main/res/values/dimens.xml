@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 间距体系：4dp 网格 -->
+    <dimen name="space_xxs">2dp</dimen>
+    <dimen name="space_xs">4dp</dimen>
+    <dimen name="space_sm">8dp</dimen>
+    <dimen name="space_md">12dp</dimen>
+    <dimen name="space_lg">16dp</dimen>
+    <dimen name="space_xl">24dp</dimen>
+    <dimen name="space_xxl">32dp</dimen>
+
+    <!-- 内容边距 -->
+    <dimen name="screen_margin">16dp</dimen>
+    <dimen name="card_padding">20dp</dimen>
+    <dimen name="card_gap">12dp</dimen>
+
+    <!-- 组件尺寸 -->
+    <dimen name="icon_sm">20dp</dimen>
+    <dimen name="icon_md">24dp</dimen>
+    <dimen name="icon_avatar">40dp</dimen>
+    <dimen name="icon_hero">72dp</dimen>
+    <dimen name="icon_large">96dp</dimen>
+    <dimen name="progress_ring">200dp</dimen>
+    <dimen name="appbar_height">64dp</dimen>
+    <dimen name="touch_target">48dp</dimen>
+
+    <!-- 圆角 -->
+    <dimen name="corner_sm">8dp</dimen>
+    <dimen name="corner_md">12dp</dimen>
+    <dimen name="corner_lg">20dp</dimen>
+    <dimen name="corner_xl">28dp</dimen>
+    <dimen name="corner_full">100dp</dimen>
+
+    <!-- 描边 -->
+    <dimen name="stroke_thin">1dp</dimen>
+
+    <!-- 快捷入口格子 -->
+    <dimen name="quick_tile_min">88dp</dimen>
+    <dimen name="quick_tile_height">96dp</dimen>
+
+    <!-- 底部导航 -->
+    <dimen name="nav_height">80dp</dimen>
+
+    <!-- 扫描进度环 -->
+    <dimen name="scan_ring_size">220dp</dimen>
+    <dimen name="scan_ring_stroke">10dp</dimen>
+</resources>

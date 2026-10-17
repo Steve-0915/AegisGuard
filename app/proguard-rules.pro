@@ -1,0 +1,3 @@
+-keep class com.aegis.guard.data.model.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*

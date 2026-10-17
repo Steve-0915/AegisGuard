@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 盾牌 + 勾选：安全防护语义。安全区为 108x108 中的 66x66 中心区 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 盾牌外轮廓 -->
+    <path
+        android:fillColor="#00696B"
+        android:pathData="M54,26
+            C62.2,32.2 70.6,35.0 78.5,36.2
+            L78.5,55.5
+            C78.5,67.9 68.4,77.3 54,82.5
+            C39.6,77.3 29.5,67.9 29.5,55.5
+            L29.5,36.2
+            C37.4,35.0 45.8,32.2 54,26 Z" />
+    <!-- 内部高亮层 -->
+    <path
+        android:fillColor="#4CDADA"
+        android:pathData="M54,31.5
+            C61.2,36.7 68.4,39.2 75.0,40.4
+            L75.0,55.5
+            C75.0,65.9 66.4,74.1 54,78.9
+            C41.6,74.1 33.0,65.9 33.0,55.5
+            L33.0,40.4
+            C39.6,39.2 46.8,36.7 54,31.5 Z" />
+    <!-- 对勾 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44.2,53.8
+            L51.0,60.6
+            L65.2,45.4
+            L68.6,48.8
+            L51.0,67.4
+            L40.8,57.2 Z" />
+</vector>

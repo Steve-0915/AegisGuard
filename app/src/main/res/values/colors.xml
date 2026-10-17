@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material You 基准品牌色（安卓12+ 会被系统动态取色覆盖） -->
+    <color name="ic_launcher_background_legacy">#E0F7F7</color>
+    <color name="md_theme_primary">#006A6A</color>
+    <color name="md_theme_onPrimary">#FFFFFF</color>
+    <color name="md_theme_primaryContainer">#6FF7F6</color>
+    <color name="md_theme_onPrimaryContainer">#002020</color>
+    <color name="md_theme_secondary">#4A6363</color>
+    <color name="md_theme_onSecondary">#FFFFFF</color>
+    <color name="md_theme_secondaryContainer">#CCE8E7</color>
+    <color name="md_theme_onSecondaryContainer">#051F1F</color>
+    <color name="md_theme_tertiary">#4B607C</color>
+    <color name="md_theme_onTertiary">#FFFFFF</color>
+    <color name="md_theme_tertiaryContainer">#D3E4FF</color>
+    <color name="md_theme_onTertiaryContainer">#041C35</color>
+    <color name="md_theme_error">#BA1A1A</color>
+    <color name="md_theme_onError">#FFFFFF</color>
+    <color name="md_theme_errorContainer">#FFDAD6</color>
+    <color name="md_theme_onErrorContainer">#410002</color>
+    <color name="md_theme_background">#FAFDFC</color>
+    <color name="md_theme_onBackground">#191C1C</color>
+    <color name="md_theme_surface">#FAFDFC</color>
+    <color name="md_theme_onSurface">#191C1C</color>
+    <color name="md_theme_surfaceVariant">#DAE5E4</color>
+    <color name="md_theme_onSurfaceVariant">#3F4948</color>
+    <color name="md_theme_outline">#6F7979</color>
+    <color name="md_theme_outlineVariant">#BEC9C8</color>
+    <color name="md_theme_surfaceContainerLow">#F4F7F6</color>
+    <color name="md_theme_surfaceContainer">#EEF1F1</color>
+    <color name="md_theme_surfaceContainerHigh">#E8ECEB</color>
+
+    <color name="md_theme_surfaceContainerHighest">#E2E6E5</color>
+    <color name="md_theme_inverseSurface">#2E3131</color>
+    <color name="md_theme_inverseOnSurface">#EFF1F1</color>
+    <color name="md_theme_inversePrimary">#4CDADA</color>
+    <color name="md_theme_surfaceTint">#006A6A</color>
+    <color name="md_theme_scrim">#000000</color>
+
+    <!-- 威胁等级语义色（非动态，保持语义一致） -->
+    <color name="threat_clean">#2E7D32</color>
+    <color name="threat_clean_container">#C8E6C9</color>
+    <color name="threat_low">#0288D1</color>
+    <color name="threat_low_container">#B3E5FC</color>
+    <color name="threat_medium">#F9A825</color>
+    <color name="threat_medium_container">#FFECB3</color>
+    <color name="threat_high">#EF6C00</color>
+    <color name="threat_high_container">#FFE0B2</color>
+    <color name="threat_critical">#C62828</color>
+    <color name="threat_critical_container">#FFCDD2</color>
+    <color name="threat_unknown">#5F6368</color>
+    <color name="threat_unknown_container">#E0E0E0</color>
+</resources>

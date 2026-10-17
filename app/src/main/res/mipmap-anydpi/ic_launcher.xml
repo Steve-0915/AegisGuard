@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 旧版（API < 26）启动图标：底色 + 盾牌前景，非 adaptive-icon -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/ic_launcher_background_legacy" />
+    <item android:drawable="@drawable/ic_launcher_legacy_fg" />
+</layer-list>

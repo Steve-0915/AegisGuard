@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">神盾卫士</string>
+    <string name="app_name_en">AegisGuard</string>
+    <string name="app_tagline">本地病毒查杀 · 恶意软件检测 · CVE 漏洞排查</string>
+
+    <!-- 导航 -->
+    <string name="nav_home">防护</string>
+    <string name="nav_scan">扫描</string>
+    <string name="nav_cve">漏洞</string>
+    <string name="nav_settings">设置</string>
+
+    <!-- 首页 -->
+    <string name="home_status_protected">设备状态安全</string>
+    <string name="home_status_at_risk">发现安全风险</string>
+    <string name="home_status_scanning">正在扫描…</string>
+    <string name="home_status_idle">尚未扫描</string>
+    <string name="home_subtitle_protected">未发现已知威胁，病毒库为最新状态</string>
+    <string name="home_subtitle_at_risk">检测到 %1$d 个需要处理的项目</string>
+    <string name="home_subtitle_idle">建议立即执行一次全盘扫描</string>
+    <string name="home_subtitle_scanning">已扫描 %1$d 个文件</string>
+    <string name="action_scan_now">立即扫描</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_stop">停止</string>
+    <string name="action_pause">暂停</string>
+    <string name="action_resume">继续</string>
+
+    <string name="card_engine_title">检测引擎</string>
+    <string name="card_engine_sig">病毒特征库</string>
+    <string name="card_engine_sig_value">%1$s 条规则 · %2$s 条启发式</string>
+    <string name="card_engine_sig_updated">更新于 %1$s</string>
+    <string name="card_engine_realtime">实时防护</string>
+    <string name="card_engine_realtime_on">已开启</string>
+    <string name="card_engine_realtime_off">已关闭</string>
+    <string name="card_engine_heuristic">启发式引擎</string>
+    <string name="card_engine_cloud">云端情报</string>
+
+    <string name="card_stats_title">安全统计</string>
+    <string name="stat_last_scan">上次扫描</string>
+    <string name="stat_apps">已检测应用</string>
+    <string name="stat_threats">累计威胁</string>
+    <string name="stat_never">从未</string>
+
+    <string name="card_recent_title">最近威胁</string>
+    <string name="card_recent_empty">暂无威胁记录，一切正常</string>
+    <string name="action_view_all">查看全部</string>
+
+    <string name="card_quick_title">快捷操作</string>
+    <string name="quick_app_scan">应用扫描</string>
+    <string name="quick_file_scan">文件扫描</string>
+    <string name="quick_cve">CVE 排查</string>
+    <string name="quick_integrity">系统体检</string>
+    <string name="quick_apk">APK 静态分析</string>
+
+    <string name="realtime_consent_title">开启实时防护</string>
+    <string name="realtime_consent_msg">实时防护会在安装新应用或文件变更时自动检测，需要常驻前台服务。这会略微增加耗电。</string>
+    <string name="realtime_notif_title">实时防护运行中</string>
+    <string name="realtime_notif_text">正在监控 %1$s</string>
+
+    <!-- 扫描 -->
+    <string name="scan_title">扫描</string>
+    <string name="scan_full">全盘扫描</string>
+    <string name="scan_full_desc">应用 + 存储文件 + 敏感目录</string>
+    <string name="scan_apps">应用扫描</string>
+    <string name="scan_apps_desc">检测所有已安装应用的签名与权限</string>
+    <string name="scan_files">文件扫描</string>
+    <string name="scan_files_desc">扫描下载与共享存储中的可疑文件</string>
+    <string name="scan_custom">自定义目录</string>
+    <string name="scan_custom_desc">选择要扫描的文件夹</string>
+    <string name="scan_apk">APK 分析</string>
+    <string name="scan_apk_desc">选取 APK 文件做静态逆向分析</string>
+    <string name="scan_progress">扫描进度</string>
+    <string name="scan_current_file">正在检查：%1$s</string>
+    <string name="scan_files_scanned">已扫描文件</string>
+    <string name="scan_apps_scanned">已检测应用</string>
+    <string name="scan_elapsed">已用时</string>
+    <string name="scan_found">发现威胁</string>
+    <string name="scan_complete">扫描完成</string>
+    <string name="scan_complete_clean">未发现任何威胁</string>
+    <string name="scan_complete_found">发现 %1$d 个威胁</string>
+    <string name="scan_duration">耗时 %1$s</string>
+
+    <!-- 扫描阶段 -->
+    <string name="stage_prepare">准备中</string>
+    <string name="stage_apps">检测已安装应用</string>
+    <string name="stage_packages">分析应用包特征</string>
+    <string name="stage_files">扫描存储文件</string>
+    <string name="stage_hash">计算文件指纹</string>
+    <string name="stage_heuristic">启发式行为分析</string>
+    <string name="stage_report">生成报告</string>
+
+    <!-- 威胁详情 -->
+    <string name="detail_title">威胁详情</string>
+    <string name="detail_severity">危险等级</string>
+    <string name="detail_type">威胁类型</string>
+    <string name="detail_source">来源</string>
+    <string name="detail_path">位置</string>
+    <string name="detail_sha256">SHA-256</string>
+    <string name="detail_package">包名</string>
+    <string name="detail_detected">检测时间</string>
+    <string name="detail_evidence">检测依据</string>
+    <string name="detail_advice">处置建议</string>
+    <string name="action_uninstall">卸载应用</string>
+    <string name="action_delete_file">删除文件</string>
+    <string name="action_ignore">忽略</string>
+    <string name="action_whitelist">加入白名单</string>
+    <string name="action_copy">复制</string>
+    <string name="action_share">分享报告</string>
+    <string name="action_open_settings">应用详情</string>
+    <string name="action_report">举报误报</string>
+    <string name="confirm_uninstall_title">卸载该应用？</string>
+    <string name="confirm_uninstall_msg">%1$s 被判定为 %2$s，卸载后相关数据将被移除。</string>
+    <string name="confirm_delete_title">删除该文件？</string>
+    <string name="confirm_delete_msg">文件将被永久删除，此操作不可撤销。</string>
+    <string name="action_confirm">确认</string>
+
+    <!-- CVE -->
+    <string name="cve_title">CVE 漏洞排查</string>
+    <string name="cve_subtitle">基于已安装应用的组件与版本，比对公开漏洞库</string>
+    <string name="cve_scan">开始排查</string>
+    <string name="cve_no_result">暂未发现匹配的已知漏洞</string>
+    <string name="cve_found">发现 %1$d 个潜在漏洞</string>
+    <string name="cve_cvss">CVSS</string>
+    <string name="cve_component">受影响组件</string>
+    <string name="cve_published">披露时间</string>
+    <string name="cve_summary">漏洞描述</string>
+    <string name="cve_reference">参考链接</string>
+    <string name="cve_severity_critical">严重</string>
+    <string name="cve_severity_high">高危</string>
+    <string name="cve_severity_medium">中危</string>
+    <string name="cve_severity_low">低危</string>
+    <string name="cve_severity_unknown">未知</string>
+    <string name="cve_note">说明：本功能基于本地漏洞特征库进行版本区间匹配，只能识别已知组件的版本号，无法替代专业渗透测试。</string>
+    <string name="cve_filter_all">全部</string>
+    <string name="cve_db_version">漏洞库版本 %1$s（%2$d 条）</string>
+
+    <!-- 设置 -->
+    <string name="settings_title">设置</string>
+    <string name="settings_group_engine">检测引擎</string>
+    <string name="settings_realtime">实时防护</string>
+    <string name="settings_realtime_desc">安装或更新应用时自动检测</string>
+    <string name="settings_heuristic">启发式检测</string>
+    <string name="settings_heuristic_desc">识别未知威胁的行为特征（可能增加误报）</string>
+    <string name="settings_pup">潜在有害应用</string>
+    <string name="settings_pup_desc">检测广告软件与灰色软件</string>
+    <string name="settings_cloud">云端情报查询</string>
+    <string name="settings_cloud_desc">将文件哈希上传至公开威胁情报接口</string>
+    <string name="settings_group_scan">扫描选项</string>
+    <string name="settings_max_size">最大扫描文件</string>
+    <string name="settings_max_size_desc">跳过超过该体积的文件</string>
+    <string name="settings_archives">深入扫描压缩包</string>
+    <string name="settings_archives_desc">解包检查 zip/apk 内部文件</string>
+    <string name="settings_dex">DEX 字节码分析</string>
+    <string name="settings_dex_desc">解析 APK 内的类与方法引用</string>
+    <string name="settings_hidden">扫描隐藏文件</string>
+    <string name="settings_hidden_desc">包含以点开头的隐藏目录与文件，扫描更彻底但耗时更长</string>
+    <string name="settings_group_data">数据管理</string>
+    <string name="settings_update_db">更新病毒库</string>
+    <string name="settings_update_db_desc">从公开源拉取最新特征</string>
+    <string name="settings_import_db">导入本地库</string>
+    <string name="settings_whitelist">白名单管理</string>
+    <string name="settings_history">扫描历史</string>
+    <string name="settings_export">导出报告</string>
+    <string name="settings_clear">清除所有数据</string>
+    <string name="settings_clear_title">清除全部数据？</string>
+    <string name="settings_clear_msg">所有扫描历史、白名单与设置将恢复出厂状态。</string>
+    <string name="settings_group_appearance">外观</string>
+    <string name="settings_dynamic_color">动态取色（Material You）</string>
+    <string name="settings_dynamic_color_desc">使用系统壁纸配色，需 Android 12+</string>
+    <string name="settings_dark">跟随系统深色模式</string>
+    <string name="settings_about">关于</string>
+    <string name="settings_version">版本</string>
+
+    <!-- 关于 -->
+    <string name="about_title">关于神盾卫士</string>
+    <string name="about_desc">一个完全本地运行的 Android 恶意软件检测工具。所有扫描均在本机完成，不上传任何隐私数据。</string>
+    <string name="about_opensource">开源数据源</string>
+    <string name="about_engine">引擎能力</string>
+
+    <!-- 通用 -->
+    <string name="severity_critical">严重威胁</string>
+    <string name="severity_high">高危</string>
+    <string name="severity_medium">中危</string>
+    <string name="severity_low">低危</string>
+    <string name="severity_info">提示</string>
+    <string name="severity_clean">安全</string>
+    <string name="threat_type_malware">恶意软件</string>
+    <string name="threat_type_trojan">木马</string>
+    <string name="threat_type_spyware">间谍软件</string>
+    <string name="threat_type_adware">广告软件</string>
+    <string name="threat_type_ransomware">勒索软件</string>
+    <string name="threat_type_riskware">风险软件</string>
+    <string name="threat_type_exploit">漏洞利用</string>
+    <string name="threat_type_pup">潜在有害应用</string>
+    <string name="threat_type_suspicious">可疑行为</string>
+    <string name="generic_error">出错了：%1$s</string>
+    <string name="permission_denied">缺少权限，无法继续</string>
+    <string name="loading">加载中…</string>
+    <string name="empty_state">这里空空如也</string>
+    <string name="copied">已复制到剪贴板</string>
+    <string name="item_count">共 %1$d 项</string>
+
+    <!-- 设置页补充 -->
+    <string name="settings_clear_confirm">将清空全部威胁记录、白名单与扫描历史，此操作不可撤销。</string>
+    <string name="settings_clear_done">已清空全部本地数据</string>
+    <string name="settings_whitelist_count">%1$d 个已忽略项</string>
+    <string name="settings_history_count">%1$d 条扫描历史</string>
+    <string name="settings_version_format">版本 %1$s</string>
+    <string name="settings_db_ready">%1$d 条特征 · %2$d 条 CVE · %3$s</string>
+    <string name="settings_db_failed">加载失败：%1$s</string>
+
+    <!-- 关于页补充 -->
+    <string name="about_source_sig">签名库：内置开源恶意软件特征规则（自维护 JSON），完全离线可用。</string>
+    <string name="about_source_cve">漏洞库：基于公开 CVE 元数据（NVD 语义结构）的依赖组件版本区间匹配。</string>
+    <string name="about_source_md3">界面：Material Design 3，图标为 Material Symbols 风格矢量图形。</string>
+    <string name="about_disclaimer_title">能力边界说明</string>
+    <string name="about_disclaimer">CVE 检测只能识别应用内嵌组件是否为受影响版本，无法验证系统内核或固件是否真正打过补丁；检测结果仅供参考，不构成安全承诺。</string>
+    <string name="about_row_rules">病毒特征库</string>
+    <string name="about_row_rules_desc">已加载的签名规则总数</string>
+    <string name="about_row_cves">CVE 漏洞库</string>
+    <string name="about_row_cves_desc">可参与版本区间匹配的条目</string>
+    <string name="about_row_heuristic">启发式规则</string>
+    <string name="about_row_heuristic_desc">可用于行为/权限评分的规则</string>
+    <string name="about_row_privacy">隐私模式</string>
+    <string name="about_row_privacy_desc">全部扫描在本机完成，不上传数据</string>
+    <string name="about_value_local">仅本地</string>
+
+    <!-- CVE 页面与条目 -->
+    <string name="cve_scan_action">开始检测</string>
+    <string name="cve_cvss_format">CVSS %1$.1f</string>
+    <string name="cve_component_format">受影响组件：%1$s</string>
+    <string name="cve_detected_format">检测到版本 %1$s</string>
+    <string name="cve_detected_host_format">检测到版本 %1$s · 命中 %2$s</string>
+    <string name="cve_fixed_format">修复版本：%1$s</string>
+    <string name="cve_empty">未发现受影响组件</string>
+    <string name="cve_empty_desc">已比对全部已安装应用的组件版本区间，未命中任何已知漏洞。</string>
+    <string name="cve_idle">点击下方按钮开始扫描</string>
+    <string name="cve_scanning">正在比对组件版本…</string>
+    <string name="cve_summary_format">发现 %1$d 个受影响组件 · 覆盖 %2$d 个应用</string>
+    <string name="cve_detail_title">漏洞详情</string>
+    <string name="cve_label_vector">CVSS 向量</string>
+    <string name="cve_label_published">披露日期</string>
+    <string name="cve_label_cwe">CWE 分类</string>
+    <string name="cve_label_exploited">在野利用</string>
+    <string name="cve_value_unknown">未知</string>
+    <string name="cve_value_yes">已被证实存在利用</string>
+    <string name="cve_value_no">暂无公开记录</string>
+    <string name="cve_reason_title">检测依据</string>
+    <string name="cve_reference_title">参考链接</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 描边徽标：用于等级标签 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="@dimen/corner_full" />
+    <stroke
+        android:width="@dimen/stroke_thin"
+        android:color="?attr/colorOutlineVariant" />
+    <solid android:color="@android:color/transparent" />
+</shape>

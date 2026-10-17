@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material You 深色基准（Android 12+ 由动态取色覆盖） -->
+    <color name="md_theme_primary">#4CDADA</color>
+    <color name="md_theme_onPrimary">#003737</color>
+    <color name="md_theme_primaryContainer">#004F4F</color>
+    <color name="md_theme_onPrimaryContainer">#6FF7F6</color>
+    <color name="md_theme_secondary">#B0CCCB</color>
+    <color name="md_theme_onSecondary">#1B3534</color>
+    <color name="md_theme_secondaryContainer">#324B4B</color>
+    <color name="md_theme_onSecondaryContainer">#CCE8E7</color>
+    <color name="md_theme_tertiary">#B3C8E8</color>
+    <color name="md_theme_onTertiary">#1C314B</color>
+    <color name="md_theme_tertiaryContainer">#334863</color>
+    <color name="md_theme_onTertiaryContainer">#D3E4FF</color>
+    <color name="md_theme_error">#FFB4AB</color>
+    <color name="md_theme_onError">#690005</color>
+    <color name="md_theme_errorContainer">#93000A</color>
+    <color name="md_theme_onErrorContainer">#FFDAD6</color>
+    <color name="md_theme_background">#101414</color>
+    <color name="md_theme_onBackground">#E0E3E2</color>
+    <color name="md_theme_surface">#101414</color>
+    <color name="md_theme_onSurface">#E0E3E2</color>
+    <color name="md_theme_surfaceVariant">#3F4948</color>
+    <color name="md_theme_onSurfaceVariant">#BEC9C8</color>
+    <color name="md_theme_outline">#889392</color>
+    <color name="md_theme_outlineVariant">#3F4948</color>
+    <color name="md_theme_surfaceContainerLow">#191C1C</color>
+    <color name="md_theme_surfaceContainer">#1D2020</color>
+    <color name="md_theme_surfaceContainerHigh">#272B2B</color>
+    <color name="md_theme_surfaceContainerHighest">#323636</color>
+    <color name="md_theme_inverseSurface">#E0E3E2</color>
+    <color name="md_theme_inverseOnSurface">#2E3131</color>
+    <color name="md_theme_inversePrimary">#006A6A</color>
+    <color name="md_theme_surfaceTint">#4CDADA</color>
+
+    <color name="threat_clean">#81C995</color>
+    <color name="threat_clean_container">#1B3B22</color>
+    <color name="threat_low">#8AB4F8</color>
+    <color name="threat_low_container">#1A3057</color>
+    <color name="threat_medium">#FDD663</color>
+    <color name="threat_medium_container">#4A3B00</color>
+    <color name="threat_high">#FFB86B</color>
+    <color name="threat_high_container">#4A2800</color>
+    <color name="threat_critical">#F28B82</color>
+    <color name="threat_critical_container">#5C1410</color>
+    <color name="threat_unknown">#9AA0A6</color>
+    <color name="threat_unknown_container">#303030</color>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 扫描进度环：用 layer-list 做底环，实际进度由 ProgressBar 绘制 -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <stroke
+                android:width="@dimen/scan_ring_stroke"
+                android:color="?attr/colorSurfaceContainerHighest" />
+        </shape>
+    </item>
+    <item android:bottom="@dimen/scan_ring_size">
+        <shape android:shape="oval">
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+</layer-list>

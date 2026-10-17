@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 单色层：Android 13+ 主题图标（Themed Icons）使用，系统按主题色着色 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M54,26
+            C62.2,32.2 70.6,35.0 78.5,36.2
+            L78.5,55.5
+            C78.5,67.9 68.4,77.3 54,82.5
+            C39.6,77.3 29.5,67.9 29.5,55.5
+            L29.5,36.2
+            C37.4,35.0 45.8,32.2 54,26 Z
+            M44.2,53.8
+            L40.8,57.2
+            L51.0,67.4
+            L68.6,48.8
+            L65.2,45.4
+            L51.0,60.6 Z" />
+</vector>
