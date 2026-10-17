@@ -3,6 +3,13 @@ plugins {
     id 'org.jetbrains.kotlin.android'
 }
 
+// Load signing config from local.properties (never committed to git)
+def keystoreProps = new Properties()
+def keystorePropsFile = rootProject.file('local.properties')
+if (keystorePropsFile.exists()) {
+    keystorePropsFile.withInputStream { keystoreProps.load(it) }
+}
+
 android {
     namespace 'com.aegis.guard'
     compileSdk 35
@@ -16,8 +23,25 @@ android {
         vectorDrawables.useSupportLibrary = true
     }
 
+    // Whether a release keystore is configured via local.properties
+    def hasSigning = keystorePropsFile.exists() && keystoreProps['signing.storeFile'] != null
+
+    signingConfigs {
+        release {
+            if (hasSigning) {
+                storeFile = file(keystoreProps['signing.storeFile'])
+                storePassword = keystoreProps['signing.storePassword']
+                keyAlias = keystoreProps['signing.keyAlias']
+                keyPassword = keystoreProps['signing.keyPassword']
+            }
+        }
+    }
     buildTypes {
         release {
+            // Only sign if a keystore is configured; otherwise produces an unsigned APK.
+            if (hasSigning) {
+                signingConfig signingConfigs.release
+            }
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }

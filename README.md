@@ -54,6 +54,8 @@ cd AegisGuard
 
 > **说明**：本仓库的 `gradle.properties` 中有一段被注释掉的 `android.aapt2FromMavenOverride`，那是特定沙箱环境专用的，普通机器请保持注释状态（默认即可正常构建）。
 
+> **发布签名**：构建正式 release APK 的签名配置方法见 [SIGNING.md](SIGNING.md)。
+
 ## 🔍 CVE 能力边界
 
 本应用的 CVE 检测存在明确边界，请知悉：
